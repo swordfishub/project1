@@ -9,7 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var messageTextField: UITextField!
+    @IBOutlet weak var successLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +24,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func sendEmailButtonClick(sender: UIButton) {
+        nameTextField.text = ""
+        messageTextField.text = ""
+        successLabel.hidden = false
+        successLabel.text = messageTextField.text
+        messageTextField.resignFirstResponder()
+        successLabel.textColor = UIColor.redColor()
+    }
 
 }
 

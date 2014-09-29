@@ -13,6 +13,8 @@
 		88748E5819CA0C7A00A6FE20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88748E5719CA0C7A00A6FE20 /* Images.xcassets */; };
 		88748E5B19CA0C7A00A6FE20 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88748E5919CA0C7A00A6FE20 /* LaunchScreen.xib */; };
 		88748E6719CA0C7A00A6FE20 /* project1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88748E6619CA0C7A00A6FE20 /* project1Tests.swift */; };
+		88748E7219CA0CF400A6FE20 /* Sagrada_Familia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88748E7019CA0CF400A6FE20 /* Sagrada_Familia.jpg */; };
+		88748E7319CA0CF400A6FE20 /* Stamp_Einstein.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88748E7119CA0CF400A6FE20 /* Stamp_Einstein.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		88748E6019CA0C7A00A6FE20 /* project1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = project1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88748E6519CA0C7A00A6FE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88748E6619CA0C7A00A6FE20 /* project1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project1Tests.swift; sourceTree = "<group>"; };
+		88748E7019CA0CF400A6FE20 /* Sagrada_Familia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sagrada_Familia.jpg; sourceTree = "<group>"; };
+		88748E7119CA0CF400A6FE20 /* Stamp_Einstein.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Stamp_Einstein.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		88748E4E19CA0C7A00A6FE20 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				88748E7019CA0CF400A6FE20 /* Sagrada_Familia.jpg */,
+				88748E7119CA0CF400A6FE20 /* Stamp_Einstein.jpg */,
 				88748E4F19CA0C7A00A6FE20 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +201,8 @@
 				88748E5619CA0C7A00A6FE20 /* Main.storyboard in Resources */,
 				88748E5B19CA0C7A00A6FE20 /* LaunchScreen.xib in Resources */,
 				88748E5819CA0C7A00A6FE20 /* Images.xcassets in Resources */,
+				88748E7219CA0CF400A6FE20 /* Sagrada_Familia.jpg in Resources */,
+				88748E7319CA0CF400A6FE20 /* Stamp_Einstein.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
