@@ -25,10 +25,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendEmailButtonClick(sender: UIButton) {
-        nameTextField.text = ""
-        messageTextField.text = ""
         successLabel.hidden = false
         successLabel.text = messageTextField.text
+        nameTextField.text = ""
+        messageTextField.text = ""
         messageTextField.resignFirstResponder()
         successLabel.textColor = UIColor.redColor()
     }
