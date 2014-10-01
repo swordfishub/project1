@@ -12,7 +12,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var messageTextField: UITextField!
-    @IBOutlet weak var successLabel: UILabel!
+    @IBOutlet weak var messageLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,12 +26,18 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendEmailButtonClick(sender: UIButton) {
-        successLabel.hidden = false
-        successLabel.text = messageTextField.text
-        nameTextField.text = ""
+        
+        messageLabel.hidden = false
+        messageLabel.text = messageTextField.text
+        messageLabel.textColor = UIColor.redColor()
         messageTextField.text = ""
         messageTextField.resignFirstResponder()
-        successLabel.textColor = UIColor.redColor()
+        
+        nameLabel.hidden = false
+        nameLabel.text = nameTextField.text
+        nameLabel.textColor = UIColor.blueColor()
+        nameTextField.text = ""
+        nameTextField.resignFirstResponder()
     }
 
 }

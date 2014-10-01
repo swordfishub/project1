@@ -71,8 +71,14 @@
                                     <action selector="sendEmailButtonClick:" destination="vCt-gw-DMs" eventType="touchUpInside" id="HFo-qe-O1A"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enviado" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJS-j5-8kT">
-                                <rect key="frame" x="16" y="72" width="200" height="21"/>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="message" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJS-j5-8kT">
+                                <rect key="frame" x="16" y="122" width="200" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tx9-XG-u5Y">
+                                <rect key="frame" x="16" y="72" width="200" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -82,9 +88,10 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="messageLabel" destination="xJS-j5-8kT" id="CQJ-BF-mSp"/>
                         <outlet property="messageTextField" destination="zIm-sr-XN7" id="OqO-bk-rc0"/>
+                        <outlet property="nameLabel" destination="tx9-XG-u5Y" id="OWx-Rw-Gx9"/>
                         <outlet property="nameTextField" destination="itG-ac-KA2" id="iKK-fu-k4j"/>
-                        <outlet property="successLabel" destination="xJS-j5-8kT" id="lqo-mT-APo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QBp-An-c2E" userLabel="First Responder" sceneMemberID="firstResponder"/>
